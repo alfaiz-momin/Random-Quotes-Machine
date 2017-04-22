@@ -1,0 +1,96 @@
+body{
+
+ background-image: url("bg-image.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #C6D7E9;
+ height: 100%;
+ color: white;
+}
+
+.container{
+
+	padding-top: 100px;
+}
+
+.container h1{
+
+	font-family: 'Della Respira', serif;
+	font-weight: bolder;
+	text-shadow: 2px 2px #000; 
+}
+
+.container button{
+
+	width: 100px;
+	height: 40px;
+	margin-left: 5px;
+	background-color: rgba(0,0,0,0.6);
+	font-weight: bold;
+	border: solid 1px white;
+	border-radius: 5px;
+}
+
+.container button:hover{
+
+	color: #55ACEE;
+}
+
+.msgBox{
+	margin-right: auto;
+	margin-left: auto;
+	width: 60%;
+	height: 250px;
+	padding-top: 20%;
+	background-color: rgba(0,0,0,0.6);
+	border-radius: 8px;
+	padding: 12% 2% 2% 2%;
+	font-size: 1.5em;
+	font-family: 'Della Respira', serif;
+}
+
+.author{
+
+	float: right;
+}
+
+.developer{
+
+	padding-top: 80px;
+	font-weight: bolder;
+}
+
+.developer a{
+
+	color: orange;
+}
+
+#share{
+
+	height: 40px;
+	padding: 8px;
+	color: white;
+	margin-right: 5px;
+	background-color: rgba(0,0,0,0.6);
+	font-weight: bold;
+	border: solid 1px white;
+	border-radius: 5px;
+}
+
+#share:hover{
+
+	color: #55ACEE;
+}
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 550px) {
+
+	.msgBox{
+		width: 60%;
+		height: 150px;
+		padding: 4% 2% 2% 2%;
+	}
+
+
+}
